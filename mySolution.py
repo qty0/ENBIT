@@ -14,3 +14,4 @@ while True:  # goes on forever
         seconds = 0  # reset seconds counter (so it doesn't go above 60)
     hours = hours + 1  # after minutes has looped 60 times which means that seconds looped 60 * 60 times increment hours
     minutes = 0  # reset minutes so it doesn't go above 60
+    # loop restarts
